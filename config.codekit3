@@ -19,78 +19,78 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/Img/Image1.jpg": {
+	"/deploy/Img/section-1/Dark_Green_Leaves.jpg": {
 		"ft": 16384,
 		"iS": 201598,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/Img/Image1.jpg",
+		"oAP": "/deploy/Img/section-1/Dark_Green_Leaves.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/Img/Image2.jpg": {
+	"/deploy/Img/section-2/Lady_Florist.jpg": {
 		"ft": 16384,
 		"iS": 1084345,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/Img/Image2.jpg",
+		"oAP": "/deploy/Img/section-2/Lady_Florist.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/Img/Image3.jpg": {
+	"/deploy/Img/section-3/Bird_Vase.jpg": {
 		"ft": 16384,
 		"iS": 1037601,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/Img/Image3.jpg",
+		"oAP": "/deploy/Img/section-3/Bird_Vase.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/Img/Image4.jpg": {
-		"ft": 16384,
-		"iS": 497510,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/Img/Image4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/Img/Image5.jpg": {
+	"/deploy/Img/section-5/Dead_Roses.jpg": {
 		"ft": 16384,
 		"iS": 835674,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/Img/Image5.jpg",
+		"oAP": "/deploy/Img/section-5/Dead_Roses.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/Img/Image6.jpg": {
+	"/deploy/Img/section-5/Lady_Holding_Flowers.jpg": {
+		"ft": 16384,
+		"iS": 497510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Img/section-5/Lady_Holding_Flowers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Img/section-5/Standing_Trees.jpg": {
 		"ft": 16384,
 		"iS": 1489667,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/Img/Image6.jpg",
+		"oAP": "/deploy/Img/section-5/Standing_Trees.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/Img/Image7.jpg": {
+	"/deploy/Img/section-6/Fresh_Market_Flowers.jpg": {
 		"ft": 16384,
 		"iS": 682464,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/Img/Image7.jpg",
+		"oAP": "/deploy/Img/section-6/Fresh_Market_Flowers.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -288,6 +288,84 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-5.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -339,6 +417,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/Section-5.html",
+		"oF": 0
+		},
+	"/dev/section-6.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-6.html",
 		"oF": 0
 		},
 	"/README.md": {
