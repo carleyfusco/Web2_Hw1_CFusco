@@ -407,7 +407,23 @@ textarea {
     grid-area: section-5;
     display: grid;
     grid-gap: 20px; }
-
+    @media (min-width: 768px) {
+      #section-5 ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 50% 50%;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "gallery-1 gallery-2" "gallery-1 gallery-3"; } }
+    #section-5 ul li img {
+      width: 100%; }
+    @media (min-width: 768px) {
+      #section-5 ul #gallery-1 {
+        grid-areas: g1; } }
+    @media (min-width: 768px) {
+      #section-5 ul #gallery-2 {
+        grid-areas: g2; } }
+    @media (min-width: 768px) {
+      #section-5 ul #gallery-3 {
+        grid-areas: g3; } }
 /* =============
     Section 6
 ============= */
