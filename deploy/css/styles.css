@@ -370,32 +370,94 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  color: #fff;
+  background-color: #7A4548;
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". footer ."; }
+  footer > div {
+    grid-area: footer; }
+
 /* =============
     Section 1
 ============= */
+#section-1 {
+  background-image: url("img/section-3/Dark_Green_Leaves.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  color: #7A4548; }
+  @media (min-width: 768px) {
+    #section-1 {
+      height: 510px; } }
+  @media (min-width: 992px) {
+    #section-1 {
+      height: 680px; } }
 /* =============
     Section 2
 ============= */
-#section-2 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-2 ."; }
-  #section-2 > div {
-    grid-area: section-2; }
+@media (min-width: 1200px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-2 ."; } }
 
+@media (min-width: 992px) {
+  #section-2 {
+    padding: 100px 0; } }
+
+@media (min-width: 992px) {
+  #section-2 > div {
+    display: grid;
+    grid-template-columns: 40% auto; } }
+
+@media (min-width: 1200px) {
+  #section-2 > div {
+    grid-area: section-2; } }
+
+#section-2 > div aside {
+  background-image: url("../img/section-3/Lady_Florist.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 480px; }
+  @media (min-width: 768px) {
+    #section-2 > div aside {
+      height: 410px; } }
 /* =============
     Section 3
 ============= */
+#section-3 {
+  background-image: url("img/section-3/Bird_Vase.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 510px; }
+  @media (min-width: 768px) {
+    #section-3 {
+      height: 510px; } }
+  @media (min-width: 992px) {
+    #section-3 {
+      height: 680px; } }
 /* =============
     Section 4
 ============= */
 #section-4 {
   display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-4 ."; }
-  #section-4 > div {
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-4 .";
+  color: #7A4548; }
+  #section-4 #section-4-content {
     grid-area: section-4; }
-
+  @media (min-width: 768px) {
+    #section-4 {
+      padding: 100px 0; } }
+  @media (min-width: 992px) {
+    #section-4 {
+      padding: 100px 0; } }
+  @media (min-width: 1200px) {
+    #section-4 {
+      padding: 100px 0; } }
 /* =============
     Section 5
 ============= */
@@ -403,33 +465,59 @@ textarea {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-5 ."; }
-  #section-5 ul {
-    grid-area: section-5;
+  #section-5 div ul {
     display: grid;
-    grid-gap: 20px; }
+    grid-row-gap: 10px;
+    grid-column-gap: 10px; }
     @media (min-width: 768px) {
-      #section-5 ul {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-columns: 50% 50%;
-        grid-template-columns: 50% auto;
+      #section-5 div ul {
+        display: grid;
+        grid-temlate-columns: 1fr 1fr;
+        grid-template-areas: "gallery-1 gallery-1" "gallery-2 gallery-3"; } }
+    @media (min-width: 992px) {
+      #section-5 div ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: "gallery-1 gallery-2" "gallery-1 gallery-3"; } }
-    #section-5 ul li img {
-      width: 100%; }
     @media (min-width: 768px) {
-      #section-5 ul #gallery-1 {
-        grid-areas: g1; } }
+      #section-5 div ul #gallery-1 {
+        grid-area: gallery-1; } }
     @media (min-width: 768px) {
-      #section-5 ul #gallery-2 {
-        grid-areas: g2; } }
+      #section-5 div ul #gallery-2 {
+        grid-area: gallery-2; } }
     @media (min-width: 768px) {
-      #section-5 ul #gallery-3 {
-        grid-areas: g3; } }
+      #section-5 div ul #gallery-3 {
+        grid-area: gallery-3; } }
 /* =============
     Section 6
 ============= */
-#section-6 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-6 ."; }
+@media (min-width: 1200px) {
+  #section-6 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-2 ."; } }
+
+@media (min-width: 992px) {
+  #section-6 {
+    padding: 100px 0; } }
+
+@media (min-width: 992px) {
   #section-6 > div {
-    grid-area: section-6; }
+    display: grid;
+    grid-template-columns: 40% auto; } }
+
+@media (min-width: 1200px) {
+  #section-6 > div {
+    grid-area: section-2; } }
+
+#section-6 > div aside {
+  background-image: url("../img/section-2/Fresh_Market_Flowers.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 320px; }
+  @media (min-width: 768px) {
+    #section-6 > div aside {
+      height: 320px; } }
+  @media (min-width: 992px) {
+    #section-6 > div aside {
+      height: 320px; } }

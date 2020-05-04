@@ -1,10 +1,19 @@
 /* =============
     Section 3
 ============= */
-
 #section-3{
-    .grid-content{
-        
+    background-image: url('img/section-3/Bird_Vase.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 510px;
+
+    @include md {
+        height: 510px;
     }
 
+    @include lg {
+        height: 680px;
+    }
+    
 }
+

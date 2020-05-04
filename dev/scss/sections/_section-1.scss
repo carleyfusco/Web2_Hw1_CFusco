@@ -1,9 +1,19 @@
 /* =============
     Section 1
 ============= */
-#section-1{
-    .grid-content{
-        
+#section-1 {
+    background-image: url('img/section-3/Dark_Green_Leaves.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    
+    @include md {
+        height: 510px;
     }
 
+    @include lg {
+        height: 680px;
+    }
+    
+color: $red
 }

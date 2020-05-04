@@ -5,45 +5,48 @@
     display: grid;
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". section-5 .";
+    
+    div {
 
-    ul {
-        grid-area: section-5;
-        display: grid;
-        grid-gap: 20px;
+        ul {
+            display: grid;
+            grid-row-gap: 10px;
+            grid-column-gap: 10px;
 
-        @include md{
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-columns: 50% 50%;
-            grid-template-columns: 50% auto;
-
-            grid-template-areas: 
-            "gallery-1 gallery-2"
-            "gallery-1 gallery-3";
-        }
-
-        li{
-            img{
-                width: 100%
-            }
-        }
-
-        #gallery-1{
             @include md{
-                grid-areas: g1;
+                display: grid;
+                grid-temlate-columns: 1fr 1fr;
+                grid-template-areas:
+                        "gallery-1 gallery-1"
+                        "gallery-2 gallery-3"
             }
-        }
 
-        #gallery-2{
-            @include md{
-                grid-areas: g2;
+            @include lg{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:
+                        "gallery-1 gallery-2"
+                        "gallery-1 gallery-3"
             }
-        }
 
-        #gallery-3{
-            @include md{
-                grid-areas: g3;
+            #gallery-1{
+                @include md {
+                    grid-area: gallery-1;
+                }
             }
+
+            #gallery-2{
+                @include md {
+                    grid-area: gallery-2;
+                }
+            }
+
+            #gallery-3{
+                @include md {
+                    grid-area: gallery-3;
+                }
+            }
+
         }
     }
-
 }
