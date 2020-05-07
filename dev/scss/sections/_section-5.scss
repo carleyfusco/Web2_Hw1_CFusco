@@ -2,51 +2,56 @@
     Section 5
 ============= */
 #section-5{
-    display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". section-5 .";
-    
-    div {
 
-        ul {
-            display: grid;
-            grid-row-gap: 10px;
-            grid-column-gap: 10px;
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-5 .";  
+    }
 
-            @include md{
-                display: grid;
-                grid-temlate-columns: 1fr 1fr;
-                grid-template-areas:
-                        "gallery-1 gallery-1"
-                        "gallery-2 gallery-3"
-            }
+    ul{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: repeat(3, 335px);
 
-            @include lg{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-areas:
-                        "gallery-1 gallery-2"
-                        "gallery-1 gallery-3"
-            }
-
-            #gallery-1{
-                @include md {
-                    grid-area: gallery-1;
-                }
-            }
-
-            #gallery-2{
-                @include md {
-                    grid-area: gallery-2;
-                }
-            }
-
-            #gallery-3{
-                @include md {
-                    grid-area: gallery-3;
-                }
-            }
-
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 340);
+            grid-template-areas:
+            "holding holding"
+            "holidng holding"
+            "roses trees";
         }
+
+        @include xl{
+            grid-area: section-5;
+        }
+
+        li{
+            background-position: conter;
+            background-size: cover;
+        }
+            
+        #holding{
+            background-image: url("../img/section-5/holding.jpg") ;
+            @include md{
+                grid-area: holding;
+                background-position: center top;
+            }
+        }
+
+        #roses{
+            background-image: url("../img/section-5/roses.jpg") ;
+            @include md{
+                grid-area: roses;
+            }
+        }
+
+        #trees{
+            background-image: url("../img/section-5/trees.jpg") ;
+            @include md{
+                grid-area: trees;
+            }
+        } 
     }
 }

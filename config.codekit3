@@ -41,6 +41,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/Img/section-3/Bird_Vase.jpg": {
+		"ft": 16384,
+		"iS": 154355,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Img/section-3/Bird_Vase.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Img/section-5/holding.jpg": {
+		"ft": 16384,
+		"iS": 119130,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Img/section-5/holding.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Img/section-5/roses.jpg": {
+		"ft": 16384,
+		"iS": 41984,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Img/section-5/roses.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Img/section-5/trees.jpg": {
+		"ft": 16384,
+		"iS": 91908,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Img/section-5/trees.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/Img/section-6/Fresh_Market_Flowers.jpg": {
+		"ft": 16384,
+		"iS": 53650,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/Img/section-6/Fresh_Market_Flowers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,

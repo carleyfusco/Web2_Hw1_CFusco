@@ -2,10 +2,14 @@
     Section 1
 ============= */
 #section-1 {
-    background-image: url('img/section-3/Dark_Green_Leaves.jpg');
+    background-image: url('../img/section-1/Dark_Green_Leaves.jpg');
     background-position: center;
     background-size: cover;
-    height: 370px;
+    color: $red;
+    height: 510px;
+    text-align: left;
+    padding: 60px;
+    font-size: larger;
     
     @include md {
         height: 510px;
@@ -15,5 +19,5 @@
         height: 680px;
     }
     
-color: $red
+
 }
