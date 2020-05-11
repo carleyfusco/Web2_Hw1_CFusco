@@ -16,10 +16,10 @@
 
         @include md{
             grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 340);
+            grid-template-rows: repeat(3, 340px);
             grid-template-areas:
             "holding holding"
-            "holidng holding"
+            "holding holding"
             "roses trees";
         }
 

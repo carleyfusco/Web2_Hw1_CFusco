@@ -6,10 +6,7 @@
     background-position: center;
     background-size: cover;
     color: $red;
-    height: 510px;
-    text-align: left;
-    padding: 60px;
-    font-size: larger;
+    padding: 200px;
     
     @include md {
         height: 510px;
